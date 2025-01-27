@@ -1,7 +1,7 @@
 
 
 import os
-os.environ["OPENAI_API_KEY"]="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"
+os.environ["OPENAI_API_KEY"]="YOUR_KEY"
 from langchain.vectorstores import FAISS
 import streamlit as st
 from langchain.embeddings import HuggingFaceInstructEmbeddings
